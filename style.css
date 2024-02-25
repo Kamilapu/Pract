@@ -10,13 +10,22 @@ a {
      text-decoration: none;
 }
 
+img {
+     max-width: 100%;
+}
+
+:root {
+     --main-color: #005AD5;
+     --ff-main: "Poppins", sans-serif;
+}
+
 .container {
      max-width: 1440px;
-     width: 100%;
-     background: #005AD5;
      margin-inline: auto;
-     height: 1024px;
+}
 
+.welcome-page {
+     background: #005AD5;
 }
 
 .header {
@@ -27,6 +36,7 @@ a {
      padding-right: 98px;
      padding-left: 135px;
 
+     margin-bottom: 235px;
 }
 
 .logo {
@@ -53,66 +63,89 @@ a {
      font-weight: 400;
 }
 
-.main {
+.welcome {
      display: flex;
+     align-items: center;
+     margin-bottom: 113px;
 }
 
-.text {
-     margin-left: 135px;
-}
+.welcome__info {}
 
-.title {
+h1 {
      color: #FFF;
-     font-family: Poppins;
-     font-size: 43.421px;
-     font-weight: 600;
-     min-width: 495px;
-     margin-top: 247px;
+     font-family: var(--ff-main);
+     font-size: 43px;
+     font-weight: 600px;
+     padding-left: 135px;
      margin-bottom: 38px;
 }
 
-.description {
+.welcome_description {
      color: #FFF;
-     font-family: Poppins;
-     font-size: 14.589px;
-     font-weight: 400;
-     max-width: 462px;
+     font-family: var(--ff-main);
+     font-size: 14px;
+     font-weight: 400px;
+     padding-left: 138px;
+     padding-right: 129px;
      margin-bottom: 50px;
 }
 
-.btn {
+.welcome_btn {
      display: inline-block;
-     width: 124px;
-     height: 54px;
      border-radius: 10px;
      background: #FFF;
      padding: 16px 32px;
-     cursor: no-drop;
 
      color: #005AD5;
-     font-family: Poppins;
+     font-family: var(--ff-main);
      font-size: 16px;
      font-weight: 600;
-     margin-bottom: 431px;
+     color: var(--main-color);
+     margin-left: 150px;
 }
 
-img {
-     max-width: 100%;
-     height: auto;
+.welcome-house {
+     margin-right: 98px;
 }
 
-.images {}
-
-.houseimg {
-     margin-top: 228px;
-     max-width: 613px;
-     position: relative;
-     left: 129px;
+.polygon {
+     display: flex;
 }
 
-.polygonimg {
-     max-width: 1440px;
-     position: absolute;
-     top: 765px;
-     bottom: 0px;
+.offer_info {}
+
+h2 {
+     
+}
+
+.offer_blocks {
+     display: flex;
+}
+
+.offer {
+
+}
+
+.card {
+
+}
+
+.card-img {
+
+}
+
+.card-body {
+
+}
+
+.card-title {
+
+}
+
+.card-text {
+
+}
+
+.btn-card {
+
 }
